@@ -157,8 +157,8 @@ for k in range(5):
 #
 ###############################################################################
 Doris = rg.SimpleTurtle('triangle')
-Doris.pen = rg.Pen('blue', 10)
-Doris.speed = 10
+Doris.pen=rg.Pen('blue', 10)
+Doris.speed=10
 for k in range(6):
     Doris.forward(200)
     Doris.right(60)

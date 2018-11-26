@@ -33,9 +33,20 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 #######################################################################
 import math
 import turtle as tt
-tt.setup(1000,1000,100,50)
 import rosegraphics as rg
+tt.setup(1000 , 1000 , 100 , 50)
 window = rg.TurtleWindow()
+allen= rg.SimpleTurtle('triangle')
+allen.pen = rg.Pen('light blue', 5)
+allen.speed = 8
+x=40
+for o in range(6):
+    for i in range(5):
+        allen.forward(x)
+        allen.right(144)
+        x=x+40
+
+
 zichen = rg.SimpleTurtle('circle')
 zichen.pen_up()
 zichen.backward(200)
