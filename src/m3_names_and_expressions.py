@@ -110,7 +110,7 @@ print(type('math'))
 
 ###############################################################################
 #
-# DONE: 6.
+# Done: 6.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #   Run one more time to be sure that all is still OK.
 #
