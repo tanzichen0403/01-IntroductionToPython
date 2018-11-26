@@ -71,7 +71,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 4.
+# done: 4.
 #   Add yet another   print   statement, putting it below this comment.
 #   This one should print the *product* of 3,607 and 34,227.
 #   Let the computer do the arithmetic for you (no calculators!).
