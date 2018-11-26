@@ -105,7 +105,7 @@ boris.forward(200)
 # -----------------------------------------------------------------------------
 natasha = rg.SimpleTurtle('turtle')
 natasha.pen = rg.Pen('red', 30)  # Second argument is the Pen's thickness
-natasha.speed = 5  # Bigger means faster, max is usually about 10
+natasha.speed = 10  # Bigger means faster, max is usually about 10
 
 natasha.backward(50)
 natasha.right(90)
@@ -126,7 +126,10 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
-
+natasha.draw_circle(50)
+for k in range(5):
+    natasha.forward(100)
+    natasha.right(144)
 ###############################################################################
 #
 # done: 5.
@@ -153,6 +156,12 @@ natasha.go_to(rg.Point(-100, 200))
 #   As always, test by running the module.
 #
 ###############################################################################
+Doris = rg.SimpleTurtle('triangle')
+Doris.pen=rg.Pen('blue', 10)
+Doris.speed=10
+for k in range(6):
+    Doris.forward(200)
+    Doris.right(60)
 
 ###############################################################################
 #
