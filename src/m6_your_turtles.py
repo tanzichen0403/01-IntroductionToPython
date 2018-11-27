@@ -12,8 +12,8 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 
 
 
-########################################################################
-# TODO: 2.
+######################################################################
+# done: 2.
 #   You should have RUN the  m5e_loopy_turtles  module and READ its code.
 #   (Do so now if you have not already done so.)
 #
@@ -34,24 +34,24 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 import math
 import turtle as tt
 import rosegraphics as rg
-tt.setup(1000 , 1000 , 100 , 50)
+tt.setup(1000, 1000, 100, 50)
 window = rg.TurtleWindow()
-allen= rg.SimpleTurtle('triangle')
+allen = rg.SimpleTurtle('triangle')
 allen.pen = rg.Pen('light blue', 5)
 allen.speed = 8
-x=40
+x = 40
 for o in range(6):
     for i in range(5):
         allen.forward(x)
         allen.right(144)
-        x=x+40
+        x = x + 40
 
 
 zichen = rg.SimpleTurtle('circle')
 zichen.pen_up()
 zichen.backward(200)
 zichen.pen_down()
-zichen.pen = rg.Pen('black',20)
+zichen.pen = rg.Pen('black', 20)
 zichen.speed = 8
 zichen.left(90)
 zichen.forward(100)
@@ -117,11 +117,11 @@ tt.pensize(25)
 tt.pencolor("purple")
 tt.seth(-40)
 for i in range(6):
-    tt.circle(40,80)
-    tt.circle(-40,80)
-tt.circle(40,80/2)
+    tt.circle(40, 80)
+    tt.circle(-40, 80)
+tt.circle(40, 80/2)
 tt.fd(40)
-tt.circle(16,180)
+tt.circle(16, 180)
 tt.fd(40*2/3)
 
 Iris = rg.SimpleTurtle('turtle')
